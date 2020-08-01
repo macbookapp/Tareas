@@ -1,0 +1,22 @@
+
+extends layout
+
+block contenido
+ 
+    div.contenido-principal
+        
+        h1 #{ nombrePagina }
+        if errores 
+            each error in errores
+                .alerta.error #{ error.msg }
+                    
+
+        form.agregar-proyecto.sombra(method='POST' action='/nuevo-proyecto')
+
+            .campo
+                label(for="nombre") Nombre Proyecto
+                input(type="text" id='nombre' name='nombre' placeholder='Nombre Proyecto')
+
+            .campo.enviar
+                input.boton.sombra(type="submit" value='Agregar')
+

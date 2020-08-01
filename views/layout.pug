@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/app.css")
+        title #{ nombrePagina }
+    body
+
+        header.barra
+            h1 Tareas - Aministrador de Proyectos
+            a(href="#") Cerrar Sesión
+
+        main.contenedor
+
+            aside.contenedor-proyectos
+
+                .panel.crear-proyecto
+                    a.boton.sombra(href="/nuevo-proyecto") Nuevo Proyecto
+
+                .panel.lista-proyectos
+                    h2 Proyectos
+                    ul#proyectos.proyectos
+                        li
+                            a(href="#") Diseño tienda Virtual
+                        li
+                            a(href="#") Diseño nuevo Blog
+                        li
+                            a(href="#") Diseño Logo   
+
+
+            block contenido
