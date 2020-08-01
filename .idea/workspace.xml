@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc36f5b-5bd2-4dee-a52a-5bb11924a56b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596298929812</updated>
       <workItem from="1596298931330" duration="148000" />
-      <workItem from="1596299111110" duration="325000" />
+      <workItem from="1596299111110" duration="652000" />
     </task>
     <servers />
   </component>
@@ -95,5 +96,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="464" y="174" key="SettingsEditor/0.0.1920.1080/1920.47.1366.768@0.0.1920.1080" timestamp="1596299086970" />
+    <state x="555" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1596299332806">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.47.1366.768@0.0.1920.1080" timestamp="1596299332806" />
   </component>
 </project>
